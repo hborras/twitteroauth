@@ -390,4 +390,14 @@ class TwitterOAuth extends Config
         $secret = $consumer->secret;
         return base64_encode($key . ':' . $secret);
     }
+
+    /**
+    * Return current response. Allows inheritance
+    *
+    * @return string
+    */
+    public function getResponse()
+    {
+        return $this->response;
+    }
 }
