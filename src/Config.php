@@ -20,9 +20,9 @@ class Config
      *
      * @var bool
      */
-    protected $decodeJsonAsArray = false;
+    protected $decodeJsonAsArray = true;
     /** @var string User-Agent header */
-    protected $userAgent = 'TwitterOAuth (+https://twitteroauth.com)';
+    protected $userAgent = 'TwitterOAuth Cyberclick.net';
     /** @var array Store proxy connection details */
     protected $proxy = array();
 
