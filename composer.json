@@ -1,5 +1,5 @@
 {       
-    "name": "abraham/twitteroauth", 
+    "name": "hborras/twitteroauth", 
     "type": "library",
     "description": "The most popular PHP library for use with the Twitter OAuth REST API.",
     "keywords": ["twitter", "api", "oauth", "rest", "social", "twitter api", "twitter oauth"],
@@ -11,11 +11,16 @@
             "email": "abraham@abrah.am",
             "homepage": "https://abrah.am",
             "role": "Developer"
+        },{
+            "name": "Hector Borras",
+            "email": "hborras@cyberclick.net",
+            "homepage": "https://cyberclick.net",
+            "role": "Developer"
         }
     ],
     "support": {
-        "source": "https://github.com/abraham/twitteroauth",
-        "issues": "https://github.com/abraham/twitteroauth/issues"
+        "source": "https://github.com/hborras/twitteroauth",
+        "issues": "https://github.com/hborras/twitteroauth/issues"
     },
     "require": {
         "php": ">=5.4.0",
